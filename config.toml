@@ -1,0 +1,85 @@
+baseURL = "https://bhaskar.info/"
+# title = "Hugo Themes"
+author = "Venkata Bhaskar"
+copyright = "Copyright © 2019-2024, Venkata Bhaskar; all rights reserved."
+paginate = 10
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# ------------------------------
+theme = "paper"
+title = "Bhaskar"
+
+[params]
+color = 'linen'
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+[[menu.main]]
+identifier = "privacy"
+name = "Privacy"
+url = "/privacy/"
+weight = 9
+[[menu.main]]
+identifier = "resources"
+name = "Resources"
+url = "/resources/"
+weight = 2
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 1
+[[menu.main]]
+identifier = "disclaimer"
+name = "Disclaimer"
+url = "/disclaimer/"
+weight = 9
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services]
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
