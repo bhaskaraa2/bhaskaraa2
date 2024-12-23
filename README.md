@@ -1,6 +1,6 @@
 # Bhaskar's Blog
 
-It is repository for my personal bhaskar.info. Trhough this blog, I will be posting my technical articles, my learnings and experiences to provide useful insights for others.
+It is repository for my personal [bhaskar.info](https://bhaskar.info). I will be posting my technical articles, my learnings and experiences to provide useful insights for others.
 
 ## Services
 
